@@ -18,7 +18,7 @@ services:
       - N8N_BASIC_AUTH_USER=admin
       - N8N_BASIC_AUTH_PASSWORD=password
 
-      - GENERIC_TIMEZONE=America/Vancouver
+      - GENERIC_TIMEZONE=America/Chicago
       - WEBHOOK_TUNNEL_URL=https://n8n.example.com/
       - VUE_APP_URL_BASE_API=https://n8n.example.com/
     

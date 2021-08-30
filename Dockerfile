@@ -2,7 +2,7 @@ FROM ryanwclark/nginx:latest
 LABEL maintainer="Ryan Clark (ryanwclark@yahoo.com)"
 
 ### Set Defaults
-ENV N8N_VERSION=0.113.0 \
+ENV N8N_VERSION=0.136.0 \
     ENABLE_SMTP=FALSE \
     ENABLE_CRON=FALSE \
     NGINX_WEBROOT=/app \
